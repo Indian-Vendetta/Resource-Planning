@@ -13,7 +13,7 @@ import javax.persistence.Table;
 @Table(name="candidate_details")
 public class Candidate {
 	
-	//comments
+	
 	@Id
 	long id;
 	long swon_number;
