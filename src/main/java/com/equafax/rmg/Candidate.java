@@ -13,7 +13,6 @@ import javax.persistence.Table;
 @Table(name="candidate_details")
 public class Candidate {
 	
-	//testing comments
 	
 	@Id
 	long id;
