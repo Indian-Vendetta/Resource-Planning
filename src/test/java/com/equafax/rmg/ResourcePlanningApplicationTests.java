@@ -8,6 +8,7 @@ class ResourcePlanningApplicationTests {
 
 	@Test
 	void contextLoads() {
+		
 	}
 
 }
