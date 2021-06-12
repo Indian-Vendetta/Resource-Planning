@@ -57,7 +57,6 @@ public class MainController {
 	@RequestMapping("/register")
 	public String registration(HttpServletRequest request) {
 		request.setAttribute("mode", "MODE_REGISTER");
-		
 		return "Show_Candidate";
 	}
 	
