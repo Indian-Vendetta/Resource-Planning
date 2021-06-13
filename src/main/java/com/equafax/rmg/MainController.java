@@ -35,6 +35,7 @@ public class MainController {
 	public String showAdminLogin(HttpServletRequest request)
 	{
 		request.setAttribute("mode", "MODE_LOGIN");
+		
 		return "Show_Candidate";
 	}
 	
