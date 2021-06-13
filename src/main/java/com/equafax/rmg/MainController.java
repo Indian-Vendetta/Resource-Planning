@@ -69,6 +69,7 @@ public class MainController {
 	public String showAllCandidate(HttpServletRequest request) {
 		request.setAttribute("candidate", cand_service.show_all_candidates());
 		request.setAttribute("mode", "ALL_USERS");
+		
 		return "Show_Candidate";
 	}
 	
